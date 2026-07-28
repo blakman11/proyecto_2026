@@ -1,9 +1,0 @@
-{
-    "java.project.sourcePaths": [
-        "Codificacion_Modulo_JDBC\\proyec.java",
-        "Codificacion_Modulo_JDBC\\proyec.java\\src"
-    ],
-    "java.project.referencedLibraries": [
-        "Codificacion_Modulo_JDBC\\proyec.java\\lib\\mysql-connector-j-9.7.0.jar"
-    ]
-}
