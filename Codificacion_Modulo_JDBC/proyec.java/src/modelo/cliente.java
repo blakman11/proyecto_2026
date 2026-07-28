@@ -1,5 +1,7 @@
 package modelo;
 
+import javax.print.DocFlavor.STRING;
+
 // ======================================================
 // CLASE cliente
 // ======================================================
@@ -30,7 +32,7 @@ public class cliente {
     private String nombre;
 
     // Número del cliente.
-    private int numero;
+    private String numero;
 
     // Correo electrónico.
     private String correo_elec;
@@ -70,7 +72,7 @@ public class cliente {
 
     public cliente(int codigo_cliente,
                    String nombre,
-                   int numero,
+                   String numero,
                    String correo_elec,
                    String direccion) {
 
@@ -95,7 +97,7 @@ public class cliente {
         return nombre;
     }
 
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
 
@@ -121,7 +123,7 @@ public class cliente {
         this.nombre = nombre;
     }
 
-    public void setNumero(int numero) {
+    public void setNumero(String numero) {
         this.numero = numero;
     }
 
