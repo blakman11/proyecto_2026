@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos | Maizon Toro</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+    <!-- Costales -->
+    <img src="imagenes/bulto de maiz derecho.png" class="arroz izquierda">
+    <img src="imagenes/bulto de maiz izquierdo.png" class="arroz derecha">
+
+    <div class="login-box">
+
+        <img src="imagenes/mazorca.png" class="logo-maiz">
+
+        <h1>MAIZON TORO</h1>
+
+        <p class="frase">
+            "De nuestra familia para tu mesa"
+        </p>
+
+        <h2>Nuestros Productos</h2>
+
+        <div class="catalogo">
+
+            <!-- Producto 1 -->
+            <div class="tarjeta">
+                <img src="Imagenes/arepas1.png" class="img-producto">
+
+                <h3>Arepa Tradicional</h3>
+
+                <p>Arepa artesanal elaborada con maíz de excelente calidad.</p>
+
+                <h4>$2.500</h4>
+
+                <button onclick="agregarCarrito('Arepa Tradicional',2500)">
+                    Agregar al carrito
+                </button>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="tarjeta">
+                <img src="Imagenes/arepa queso2.jpg" class="img-producto">
+
+                <h3>Arepa con Queso</h3>
+
+                <p>Arepa rellena con delicioso queso campesino.</p>
+
+                <h4>$3.500</h4>
+
+                <button onclick="agregarCarrito('Arepa con Queso',3500)">
+                    Agregar al carrito
+                </button>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="tarjeta">
+                <img src="Imagenes/3.jpg" class="img-producto">
+
+                <h3>Arepa de Chócolo</h3>
+
+                <p>Preparada con maíz tierno y sabor tradicional.</p>
+
+                <h4>$4.000</h4>
+
+                <button onclick="agregarCarrito('Arepa de Chócolo',4000)">
+                    Agregar al carrito
+                </button>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="tarjeta">
+                <img src="Imagenes/MASA.jpg" class="img-producto">
+
+                <h3>Masa para Arepas</h3>
+
+                <p>Masa lista para preparar arepas en casa.</p>
+
+                <h4>$6.000</h4>
+
+                <button onclick="agregarCarrito('Masa para Arepas',6000)">
+                    Agregar al carrito
+                </button>
+            </div>
+
+        </div>
+
+        <br>
+
+        <button onclick="window.location.href='carrito.html'">
+            🛒 Ver carrito
+        </button>
+
+        <p id="mensaje"></p>
+
+    </div>
+
+</div>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>

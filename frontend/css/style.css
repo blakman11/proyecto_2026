@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffe68b;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.contenedor{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.login-box{
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+.logo-maiz{
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+
+h1{
+    font-size: 55px;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+
+.frase{
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+
+
+h2{
+    margin-top: 60px;
+    font-size: 42px;
+}
+
+
+
+.campo{
+    margin: 35px 0;
+}
+
+label{
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+input{
+    width: 260px;
+    height: 38px;
+    border: 2px solid gray;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+
+button{
+    margin-top: 25px;
+    padding: 12px 30px;
+    background-color: #79c96f;
+    border: 2px solid #4d8d43;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #5fae54;
+}
+
+
+
+
+.olvido{
+    color: brown;
+    margin-top: 60px;
+    font-size: 22px;
+}
+
+
+
+.arroz{
+    width: 230px;
+    position: absolute;
+    top: 180px;
+}
+
+
+
+.izquierda{
+    left: 70px;
+}
+
+
+
+.derecha{
+    right: 70px;
+}
+/* ---------------------- */
+/* ESTILOS DEL CARRITO */
+/* ---------------------- */
+
+.lista-productos{
+    width: 700px;
+    margin: 40px auto;
+}
+
+.producto{
+    background-color: #fff8dc;
+    border: 2px solid #d6c36b;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-producto h3{
+    margin: 0;
+    font-size: 26px;
+}
+
+.info-producto p{
+    margin: 8px 0 0;
+    font-size: 20px;
+    color: #6b4f1d;
+}
+
+.cantidad{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cantidad button{
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    font-size: 22px;
+    border-radius: 50%;
+}
+
+.cantidad span{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.resumen{
+    width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,.15);
+}
+
+.linea{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+    font-size: 22px;
+}
+
+.total{
+    border-top: 2px solid #ccc;
+    padding-top: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.botones{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botones button{
+    margin: 10px;
+}
+
+.vaciar{
+    background-color: #d9534f;
+    border-color: #b52b27;
+    color: white;
+}
+
+.vaciar:hover{
+    background-color: #c9302c;
+}
+
+.mensaje{
+    text-align: center;
+    font-size: 22px;
+    color: green;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.carrito-vacio{
+    text-align: center;
+    font-size: 28px;
+    color: brown;
+    margin-top: 50px;
+}
+.catalogo{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    margin-top:40px;
+}
+
+.tarjeta{
+    width:220px;
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0px 3px 10px rgba(0,0,0,.2);
+}
+
+.img-producto{
+    width:130px;
+    height:130px;
+    object-fit:cover;
+}
+
+.producto{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:white;
+    margin:15px auto;
+    padding:15px;
+    border-radius:12px;
+    width:650px;
+}
+
+.resumen{
+    width:650px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+}
+
+.linea{
+    display:flex;
+    justify-content:space-between;
+    margin:10px 0;
+    font-size:22px;
+}
+
+.total{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.vaciar{
+    background:#d9534f;
+    border-color:#a94442;
+    color:white;
+}
+
+.mensaje{
+    color:green;
+    font-size:22px;
+    margin-top:20px;
+}
