@@ -1,6 +1,6 @@
-package com.maizon.modelo;
+package com.maizon.modelo; 
 
-public class cliente {
+public class Cliente {
 
     private int codigo;
     private String nombre;
@@ -8,10 +8,10 @@ public class cliente {
     private String correo;
     private String direccion;
 
-    public cliente() {
+    public Cliente() {
     }
 
-    public cliente(int codigo, String nombre, String telefono, String correo, String direccion) {
+    public Cliente(int codigo, String nombre, String telefono, String correo, String direccion) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.telefono = telefono;

@@ -1,18 +1,15 @@
 package com.maizon.dao;
 
 import com.maizon.conexion.Conexion;
-import com.maizon.modelo.cliente;
+import com.maizon.modelo.Cliente;
 
 import java.sql.Connection;
 
-public class clientedao {
+public class Clientedao {
 
-  
-    
     Connection con;
-    private cliente client;
 
-    public clientedao() {
+    public Clientedao() {
         con = Conexion.conectar();
     }
 
