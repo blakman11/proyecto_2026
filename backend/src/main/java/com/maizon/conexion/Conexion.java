@@ -8,20 +8,19 @@ public class Conexion {
 
     private static final String URL = "jdbc:mysql://localhost:3306/maizon";
     private static final String USUARIO = "root";
-    private static final String PASSWORD = "";
+    private static final String PASSWORD = "2007";
 
     public static Connection conectar() {
 
-        Connection conexion = null;
-
         try {
-            conexion = DriverManager.getConnection(URL, USUARIO, PASSWORD);
+            Connection conexion = DriverManager.getConnection(URL, USUARIO, PASSWORD);
             System.out.println("Conexión exitosa");
+            return conexion;
 
         } catch (SQLException e) {
-            System.out.println("Error: " + e.getMessage());
+            System.out.println("ERROR: " + e.getMessage());
+            e.printStackTrace();
+            return null;
         }
-
-        return conexion;
     }
 }

@@ -1,5 +1,5 @@
+com\maizon\dao\Clientedao.class
 com\maizon\conexion\Conexion.class
-com\maizon\modelo\cliente.class
+com\maizon\modelo\Cliente.class
 com\maizon\HelloServlet.class
 com\maizon\servlet\ClienteServlet.class
-com\maizon\dao\clientedao.class
