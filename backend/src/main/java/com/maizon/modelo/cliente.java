@@ -2,15 +2,18 @@ package com.maizon.modelo;
 
 public class Cliente {
 
+    //  DATOS DEL CLIENTE
     private int codigo;
     private String nombre;
     private String telefono;
     private String correo;
     private String direccion;
 
+    //  CONSTRUCTOR VACÍO (Para que Java cree el objeto sin datos iniciales)
     public Cliente() {
     }
 
+    //  CONSTRUCTOR CON DATOS (Para crear el cliente con toda su información de golpe)
     public Cliente(int codigo, String nombre, String telefono, String correo, String direccion) {
         this.codigo = codigo;
         this.nombre = nombre;
@@ -19,6 +22,7 @@ public class Cliente {
         this.direccion = direccion;
     }
 
+    //  MÉTODOS GETTERS Y SETTERS (GET para obtener el dato / SET para cambiar el dato)
     public int getCodigo() {
         return codigo;
     }

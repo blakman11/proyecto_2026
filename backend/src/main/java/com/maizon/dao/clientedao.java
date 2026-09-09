@@ -18,7 +18,7 @@ public class Clientedao {
         this.con = Conexion.conectar();
     }
 
-    // 1. GUARDAR UN NUEVO CLIENTE
+    // GUARDAR UN NUEVO CLIENTE
     public boolean guardar(Cliente cliente) {
         String sql = "INSERT INTO tabla_clientes(nombre, numero, correo_elec, direccion) VALUES(?,?,?,?)";
         
@@ -36,7 +36,7 @@ public class Clientedao {
         }
     }
 
-    // 2. OBTENER LA LISTA DE TODOS LOS CLIENTES
+    // OBTENER LA LISTA DE TODOS LOS CLIENTES
     public List<Cliente> listar() {
         List<Cliente> lista = new ArrayList<>();
         String sql = "SELECT * FROM tabla_clientes";
@@ -60,7 +60,7 @@ public class Clientedao {
         return lista;
     }
 
-    // 3. BUSCAR UN CLIENTE POR SU CÓDIGO
+    // BUSCAR UN CLIENTE POR SU CÓDIGO
     public Cliente buscarPorCodigo(int codigo) {
         String sql = "SELECT * FROM tabla_clientes WHERE codigo_cliente=?";
 
@@ -83,7 +83,7 @@ public class Clientedao {
         return null; 
     }
 
-    // 4. ACTUALIZAR LOS DATOS DE UN CLIENTE
+    // ACTUALIZAR LOS DATOS DE UN CLIENTE
     public boolean actualizar(Cliente cliente) {
         String sql = "UPDATE tabla_clientes SET nombre=?, numero=?, correo_elec=?, direccion=? WHERE codigo_cliente=?";
 
@@ -102,7 +102,7 @@ public class Clientedao {
         }
     }
 
-    // 5. ELIMINAR UN CLIENTE
+    // ELIMINAR UN CLIENTE
     public boolean eliminar(int codigo) {
         String sql = "DELETE FROM tabla_clientes WHERE codigo_cliente=?";
 
