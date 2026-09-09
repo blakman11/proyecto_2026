@@ -41,7 +41,7 @@
 
     </dependencies>
 
-    <build>
+ <build>
         <finalName>backend</finalName>
     </build>
 
